@@ -1,8 +1,3 @@
-/*
-Author: Pindrought
-Date: 11/13/2015
-This is the solution for the server that you should have at the end of tutorial 2.
-*/
 
 #pragma comment(lib,"ws2_32.lib")
 #include <WinSock2.h>
