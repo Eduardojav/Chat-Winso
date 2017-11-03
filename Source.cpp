@@ -2,6 +2,18 @@
 #include <WinSock2.h> 
 #include <string> 
 #include <iostream> 
+class chat
+{private:
+string mensaje
+public:
+void escribir()
+{
+cin>>mensaje;
+}
+void cha(){
+recv(Connection,mensaje,sizeof(mensaje),NULL);
+cout<<mensaje<<endl;}
+};
 
 SOCKET Connection;
 
